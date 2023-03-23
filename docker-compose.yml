@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  dssapi:
+    image: dssapi
+    build:
+      context: .
+      dockerfile: dss.api/Dockerfile
+  
